@@ -1,0 +1,105 @@
+.contenedor1{
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20% 20% 20% 10% 10%;
+    justify-content: space-between;
+    height: 1000px;
+}
+.cubito{
+    background-color: darkmagenta;
+    border-style: solid;
+    border-color: grey;
+}
+.cubito1{
+    background-color: rgb(109, 139, 0);
+    border-style: solid;
+    border-color: grey;
+    grid-column: 1/5;
+}
+.cubito2{
+    background-color: rgb(21, 0, 139);
+    border-style: solid;
+    border-color: grey;
+    grid-column: 1/3;
+}
+.cubito6{
+    background-color: rgb(0, 95, 139);
+    border-style: solid;
+    border-color: grey;
+    grid-column: 2/5;
+}
+.cubito7{
+    background-color: rgb(139, 0, 0);
+    border-style: solid;
+    border-color: grey;
+    grid-row: 4/6;
+    grid-column: 1/3;
+}
+.cubito8{
+    background-color: rgb(0, 139, 30);
+    border-style: solid;
+    border-color: grey;
+    grid-column: 3/5;
+}
+.cubito9{
+    background-color: rgb(0, 139, 7);
+    border-style: solid;
+    border-color: grey;
+    grid-column: 3/5;
+}
+
+.contenedor2{
+    background-color: rgb(227, 255, 127);
+    display: flex;
+    height: 1000px;
+    justify-content: space-around;
+    align-items: center;
+}
+.caja1-3{
+    background-color: darkkhaki;
+    height: 50%;
+    width: 20%;
+}
+.caja2{
+    background-color: cadetblue;
+    height: 50%;
+    width: 58%;
+}
+.cajax{
+    background-color: brown;
+    width: 95%;
+    height: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.cajay{
+    background-color: coral;
+    height: 200px;
+    width: 45%;
+}
+.cajaz{
+    background-color: rgb(121, 255, 80);
+    height: 200px;
+    width: 45%;
+}
+.caja2yz{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.caja2x{ 
+    display: flex;
+    justify-content: space-around; 
+}
+
+.contenedor3{
+    background-color: rgb(127, 236, 255);
+    height: 100px;  
+}
+.formdiv{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 35% 30% auto;
+    justify-content: space-between;
+}
